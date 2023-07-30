@@ -1,0 +1,67 @@
+<div class="dashboard">
+  <!-- Top Nav Bar -->
+
+  <app-top-bar-container></app-top-bar-container>
+
+  <!-- Main content -->
+  <div class="main-content" style="display: flex; flex: 0;">
+    
+    
+    <!-- Left Sidebar -->
+
+
+   
+
+      <!-- Sidebar Section -->
+
+    <div class="sidebar">
+      <app-welcome></app-welcome>
+      <app-wallet-card></app-wallet-card>
+    </div>
+
+    <!-- Main Section -->
+    <div class="main-section">
+      <!-- Subsection 1 -->
+
+      <app-frequently-used></app-frequently-used>
+
+      <!-- Subsection 2 -->
+      <div class="subsection">
+        
+        <div class="filters">
+
+        
+
+          <select>
+            <option *ngFor="let state of INDIAN_STATES">{{state}}</option>
+            <!-- Add more options if needed -->
+          </select>
+          <div class="date-picker">
+            <label for="from-date">From:</label>
+            <input type="date" id="from-date">
+            <label for="to-date">To:</label>
+            <input type="date" id="to-date">
+          </div>
+        </div>
+      </div>
+
+      <!-- Subsection 3 -->
+
+      <app-order-details></app-order-details>
+
+      
+      <!-- Subsection 4 -->
+
+      <!-- <app-dashboard-container></app-dashboard-container> -->
+
+      
+    </div>
+  </div>
+
+  <!-- Bottom Nav -->
+  
+  <app-bottom-container></app-bottom-container>
+
+  <router-outlet></router-outlet>
+</div>
+

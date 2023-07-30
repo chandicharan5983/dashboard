@@ -1,0 +1,53 @@
+/* Top Nav Bar styles */
+/* .top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .top-nav h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .top-nav img {
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .top-nav ul {
+    list-style: none;
+    display: flex;
+  }
+
+  .top-nav ul li {
+    margin-right: 15px;
+  }
+
+  .top-nav ul li:last-child {
+    margin-right: 0;
+  }
+
+  .user-dropdown {
+    position: relative;
+  }
+
+  .user-dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 4px;
+    z-index: 1;
+  }
+
+  .user-dropdown:hover .user-dropdown-content {
+    display: block;
+  } */

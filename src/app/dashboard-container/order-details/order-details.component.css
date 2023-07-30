@@ -1,0 +1,29 @@
+.main-section {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+
+.subsection {
+    
+    /* display: flex; */
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .subsection h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .subsection p {
+    font-size: 14px;
+  }
+
+  /* .subsection .boxes {
+    display: flex;
+  } */
